@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- style css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+
+    <title>ISTIUS</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand fs-2 fw-bold fst-italic" href="#">ISTIUS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                Movies
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item active" href="#mostwatched">Most Watched</a></li>
+                  <li><a class="dropdown-item active" href="#">Trending</a></li>
+                  <li><a class="dropdown-item active" href="#">Disney</a></li>
+                  <li><a class="dropdown-item active" href="#">Marvel Cinematic Universe</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Series
+                  </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item active" href="#">Most Watched</a></li>
+                  <li><a class="dropdown-item active" href="#">Trending</a></li>
+                  <li><a class="dropdown-item active" href="#">Netflix Series</a></li>
+                  <li><a class="dropdown-item active" href="#">HBO Series</a></li>
+                  <li><a class="dropdown-item active" href="#">Disney Series</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- END -->
+
+      <!-- Slider -->
+      <div class="container-fluid">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <img src="carousel/Avengers End game.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Avenger End Game</h5>
+              <p>After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="carousel/Dr strange.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Doctor strange Multiverse Of Madness</h5>
+              <p>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="carousel/Money Heist korea.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Money Heist Korea</h5>
+              <p>종이의 집: 공동경제구역 - Disguised under the shadows of a mask, a crew of desperados band together under the leadership of a criminal mastermind known only as “The Professor” to pull off the biggest</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+    
+    <br>
+      <!-- END -->
+
+      <!-- Content -->
+      <div class="container-fluid text-white">
+        <h1>Features</h1>
+        <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-2">
+            <div class="card1" style="width: 100%; background-color: black;">
+                <img src="img/MOVIE/Avenger.jpg" class="card-img" alt="..."><i class="bi bi-play-circle"></i>
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">Avengers End Game</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-2">
+            <div class="card2" style="width: 100%; background-color: black;">
+                <img src="img/MOVIE/Captain Marvel.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">Captain Marvel</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-2">
+            <div class="card3" style="width: 100%; background-color: black;">
+                <img src="img/MOVIE/Fantastic beast.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">Fantastic Beast Secret of Dumbledore</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-2">
+            <div class="card4" style="width: 100%; background-color: black;">
+                <img src="img/MOVIE/Morbius.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">Morbius 2022</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-2">
+            <div class="card5" style="width: 100%; background-color: black;">
+                <img src="img/MOVIE/spiderman.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">Spiderman No Way Home</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-2" >
+            <div class="card6" style="width: 100%; background-color: black;">
+                <img src="img/SERIES/Money Heist.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">Money Heist Korea</h5>
+                </div>
+              </div>
+        </div>
+    </div> 
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 col-md-2">
+            <div class="card" style="width: 100%; background-color: black;">
+                <img src="img/SERIES/stranger things.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">Stranger Things</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-2">
+            <div class="card" style="width: 100%; background-color: black;">
+                <img src="img/SERIES/vikings.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">Vikings</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-2">
+            <div class="card" style="width: 100%; background-color: black;">
+                <img src="img/SERIES/squid game.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">Squid Game</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-2">
+            <div class="card" style="width: 100%; background-color: black;">
+                <img src="img/SERIES/the boys.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">The Boys</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-2">
+            <div class="card" style="width: 100%; background-color: black;">
+                <img src="img/SERIES/Moon knight.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn text-center text-white">Moon Knight</h5>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-6 col-md-2">
+            <div class="card" style="max-width: 100%; background-color: black;">
+                <img src="img/SERIES/Peaky Blinders.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title btn  text-center text-white">Peaky Blinders</h5>
+                </div>
+              </div>
+        </div>
+    </div>
+
+      
+        <br>
+
+        <div class="container text-white">
+            <h1 id="mostwatched">Most watched</h1>
+        </div>
+
+        <br>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6 col-md-2">
+                <div class="card1" style="width: 100%; background-color: black;">
+                    <img src="img/MOVIE/Avenger.jpg" class="card-img" alt="..."><i class="bi bi-play-circle"></i>
+                    <div class="card-body">
+                      <h5 class="card-title btn text-center text-white">Avengers End Game</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-2">
+                <div class="card2" style="width: 100%; background-color: black;">
+                    <img src="img/MOVIE/Captain Marvel.jpg" class="card-img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title btn text-center text-white">Captain Marvel</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-2">
+                <div class="card3" style="width: 100%; background-color: black;">
+                    <img src="img/MOVIE/Fantastic beast.jpg" class="card-img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title btn text-center text-white">Fantastic Beast Secret of Dumbledore</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-2">
+                <div class="card4" style="width: 100%; background-color: black;">
+                    <img src="img/MOVIE/Morbius.jpg" class="card-img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title btn text-center text-white">Morbius 2022</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-2">
+                <div class="card5" style="width: 100%; background-color: black;">
+                    <img src="img/MOVIE/spiderman.jpg" class="card-img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title btn text-center text-white">Spiderman No Way Home</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 col-md-2" >
+                <div class="card6" style="width: 100%; background-color: black;">
+                    <img src="img/SERIES/Money Heist.jpg" class="card-img" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title btn text-center text-white">Money Heist Korea</h5>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      <div class="container-fluid">
+      <div class="row">
+          <div class="col-sm-6 col-md-2">
+              <div class="card" style="width: 100%; background-color: black;">
+                  <img src="img/SERIES/stranger things.jpg" class="card-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title btn text-center text-white">Stranger Things</h5>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+              <div class="card" style="width: 100%; background-color: black;">
+                  <img src="img/SERIES/vikings.jpg" class="card-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title btn text-center text-white">Vikings</h5>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+              <div class="card" style="width: 100%; background-color: black;">
+                  <img src="img/SERIES/squid game.jpg" class="card-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title btn text-center text-white">Squid Game</h5>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+              <div class="card" style="width: 100%; background-color: black;">
+                  <img src="img/SERIES/the boys.jpg" class="card-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title btn text-center text-white">The Boys</h5>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+              <div class="card" style="width: 100%; background-color: black;">
+                  <img src="img/SERIES/Moon knight.jpg" class="card-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title btn text-center text-white">Moon Knight</h5>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+              <div class="card" style="width: 100%; background-color: black;">
+                  <img src="img/SERIES/Peaky Blinders.jpg" class="card-img" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title btn  text-center text-white">Peaky Blinders</h5>
+                  </div>
+                </div>
+          </div>
+      </div>
+      <!-- END -->
+
+      <!-- footer -->
+      <footer>
+        <div class="container">
+          ISTIUS 2020
+        </div>
+      </footer>
+
+      <!-- end -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+   
+  </body>
+</html>
